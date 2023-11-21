@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins medium';
+}
+body{
+    background: url(./images/bg-intro-desktop.png), hsl(0, 100%, 74%);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.left{
+    width: 40%;
+}
+.left h1{
+    font-size: 3.575em;
+    line-height: 1.1em;
+    margin-bottom: 0.7em;
+}
+.right{
+    margin-left: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    display: block;
+    width: 40%;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
