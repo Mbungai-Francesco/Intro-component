@@ -80,19 +80,19 @@ button{
 button:hover{
     background-color: hsl(154, 55%, 63%);
 }
-form p{
+.term{
     width: 70%;
-    font-size: 12px;
+    font-size: 0.75em;
     color:  hsl(246, 25%, 77%);
 }
-/* .term{
+.term strong{
     color: hsl(0, 100%, 74%);
-} */
+}
 .red-box{
     background: url(./images/icon-error.svg) no-repeat 95% 50%;
     border: 3px solid hsl(0, 100%, 74%);
 }
-.fred-text{
+.red-text{
     color: hsl(0, 100%, 74%);
     width: 85%;
     text-align: right;

@@ -8,6 +8,7 @@
   
   <title>Frontend Mentor | Intro component with sign up form</title>
   <link rel="stylesheet" href="style.css">
+  <script src="./app.js" defer></script>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
@@ -24,15 +25,15 @@
       <p class="top"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
       <form action="">
         <input type="text" name="" id="" placeholder="First Name">
-        <p class="fred-text">First Name can't be empty</p> 
+        <p class="red-text">First Name can't be empty</p> 
         <input type="text" name="" id="" placeholder="Last Name">
-        <p class="fred-text">Last Name can't be empty</p> 
+        <p class="red-text">Last Name can't be empty</p> 
         <input type="email" name="" id="" placeholder="Email">
-        <p class="fred-text">Looks like this not an email</p> 
+        <p class="red-text">Looks like this not an email</p> 
         <input type="password" name="" id="" placeholder="Password">
-        <p class="fred-text">Password can't be empty</p> 
-        <button type="button">CLAIM YOUR FREE TRIAL</button>
-        <p>By clicking the button, you are agreeing to our <strong class="term">Terms and Services</strong></p>
+        <p class="red-text">Password can't be empty</p> 
+        <button type="button" onclick="claim()">CLAIM YOUR FREE TRIAL</button>
+        <p class="term">By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
       </form>
     </div>
   </main>
