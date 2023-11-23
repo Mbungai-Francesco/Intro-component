@@ -19,6 +19,7 @@ main{
     width: 40%;
     display: flex;
     align-items: center;
+    color: white;
 }
 .left h1{
     font-size: 3.575em;
@@ -38,7 +39,7 @@ main{
     text-align: center;
     padding: 3vh 0;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 1em;
     color: white;
     margin-bottom: 2em;
     box-shadow: 0px 7px 0 rgb(0 0 0 /0.15) ;   
@@ -58,7 +59,7 @@ input{
     display: block;
     width: 75%;
     padding: 2vh 5%;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 600;
     letter-spacing: 0.5px;
     margin: 0.5em 0;
@@ -69,7 +70,7 @@ input{
 button{
     width: 85%;
     padding: 2vh 0;
-    font-size: 16px;
+    font-size: 1em;
     background-color: hsl(154, 59%, 51%);
     border: 0;
     border-radius: 5px;
@@ -99,6 +100,32 @@ button:hover{
     font-style: italic;
     margin-bottom: 1em;
     display: none;
+}
+@media (max-width:500px){
+    body{
+        flex-direction: column;
+    }
+    main{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 10vh 0 7vh;
+    }
+    .left h1{
+        width: 100%;
+        font-size: 2em;
+        margin:0 auto 0.7em;
+    }
+    .right{
+        width: 90%;
+        margin-left: 0;
+    }
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
