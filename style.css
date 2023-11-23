@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins medium';
+    font-family: 'Poppins medium',sans-serif;
 }
 body{
     background: url(./images/bg-intro-desktop.png), hsl(0, 100%, 74%);
